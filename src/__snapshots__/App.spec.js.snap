@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator snapshot renders 1`] = `
+<div
+  className="calculator"
+>
+  <div
+    className="calcResult"
+  >
+    <div
+      className="expression"
+    >
+      
+    </div>
+    <div
+      className="finalResult"
+    >
+      
+    </div>
+  </div>
+  <div
+    className="calcKeypad"
+  >
+    <div
+      className="keyRow row1"
+    >
+      <button
+        className="clearBtn"
+        data-key="clear"
+        onClick={[Function]}
+      >
+        Clear
+      </button>
+      <button
+        className="actionBtn bkSpBtn"
+        data-key="Backspace"
+        onClick={[Function]}
+      >
+        ←
+      </button>
+      <button
+        className="divisionBtn actionBtn"
+        data-key="/"
+        onClick={[Function]}
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="keyRow row2"
+    >
+      <button
+        data-key="7"
+        onClick={[Function]}
+      >
+        7
+      </button>
+      <button
+        data-key="8"
+        onClick={[Function]}
+      >
+        8
+      </button>
+      <button
+        data-key="9"
+        onClick={[Function]}
+      >
+        9
+      </button>
+      <button
+        className="actionBtn"
+        data-key="*"
+        onClick={[Function]}
+      >
+        ×
+      </button>
+    </div>
+    <div
+      className="keyRow row3"
+    >
+      <button
+        data-key="4"
+        onClick={[Function]}
+      >
+        4
+      </button>
+      <button
+        data-key="5"
+        onClick={[Function]}
+      >
+        5
+      </button>
+      <button
+        data-key="6"
+        onClick={[Function]}
+      >
+        6
+      </button>
+      <button
+        className="actionBtn"
+        data-key="-"
+        onClick={[Function]}
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="keyRow row4"
+    >
+      <button
+        data-key="1"
+        onClick={[Function]}
+      >
+        1
+      </button>
+      <button
+        data-key="2"
+        onClick={[Function]}
+      >
+        2
+      </button>
+      <button
+        data-key="3"
+        onClick={[Function]}
+      >
+        3
+      </button>
+      <button
+        className="actionBtn"
+        data-key="+"
+        onClick={[Function]}
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="keyRow row5"
+    >
+      <button
+        className="zeroBtn"
+        data-key="0"
+        onClick={[Function]}
+      >
+        0
+      </button>
+      <button
+        className="equalBtn actionBtn"
+        data-key="Enter"
+        onClick={[Function]}
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;

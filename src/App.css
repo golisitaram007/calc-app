@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.CalcApp {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+}
+
+.calculator {
+  width: 40%;
+  height: 600px;
+}
+
+.calcResult {
+  height: 100px;
+  background: #2f3640;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.calcResult .finalResult {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  font-size: 3rem;
+}
+.expression {
+  height: 20px;
+}
+
+
+.calcKeypad {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  border: 1px solid;
+}
+button {
+  background: #192a56;
+  border: none;
+  border: 0.5px solid #2f3640;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #ccc;
+  cursor: pointer;
+}
+.calcKeypad .keyRow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionBtn {
+  background: #487eb0;
+}
+
+.keyRow.row1 button:not(.clearBtn),
+.keyRow.row2 button,
+.keyRow.row3 button,
+.keyRow.row4 button,
+.keyRow.row5 button { flex-grow: 1; width: 25%; }
+
+.keyRow.row5 .zeroBtn { flex-grow: 3; width: 75%; }
+.keyRow.row1 .clearBtn  { flex-grow: 2; width: 50% }
+
+.bkSpBtn { background: #353b48 !important }
+.clearBtn { background: #e84118 !important }
+
+button:hover {
+  background: #192a56e6;
+}
+
+@media only screen and (max-width : 767px) {
+  .calculator {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width : 768px) {
+  .calculator {
+    width: 30%;
+    height: 600px;
+  }
+}
