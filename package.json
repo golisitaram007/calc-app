@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
-    "react-scripts": "3.1.2"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,7 +35,7 @@
     "babel-jest": "^24.9.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
-    "jest-transform-css": "^2.0.0",
+    "jest-transform-css": "^6.0.0",
     "react-test-renderer": "^16.10.1"
   },
   "presets": [
